@@ -1,0 +1,89 @@
+##############################################
+#Criado por Kami, fórum Gamersboard.com.br   #
+#####################################################
+#              ESTE PLUGIN É UMA VERSÃO PAGA		#
+#########################################################
+#Compre apenas diretamente comigo. Skype: guigarciazin  #
+#########################################################
+
+Usar MySQL: false
+User: 'root'
+Senha: '1234'
+Urlconf: 'localhost'
+Dbname: 'teste'
+
+# Prefixo que será adicionado antes de todas as mensagens deste plugin.
+Prefixo: '[&eKamiX1&f] '
+
+# Mensagem enviada para o servidor quando uma arena fica disponível
+Arena disponivel: '&c@arena Agora está disponível!'
+
+# Mensagem enviada para o jogador quando ele tenta usar o comando "/setx1" sem ter a permissão "x1.admin"
+Sem permissao loc: '&cVocê não tem permissão para definir os locais de uma arena.'
+
+# Mensagem enviada para o jogador quando ele tenta ir ao camarote sem estar com o inventário vazio
+# Isto é necessário para evitar qualquer tipo de bugs e perda de itens
+Esvazie o inventario: '&cVocê precisa esvaziar o inventário para ir ao camarote.'
+
+# Mensagem enviada para o jogador que não tem a permissão "x1.camarote" ou "x1.admin" e tenta ir ao camarote
+Sem permissao para camarote: '&cVocê não tem permissão para ir ao camarote'
+
+# Mensagem enviada para o jogador que não tem a permissão "x1.admin" e tenta encerrar um x1
+Sem permissao para encerrar: '&cVocê não tem permissão para encerrar um x1'
+
+# Mensagem enviada quando o jogador digita o comando "/x1"
+Uso simples: '/x1 desafiar Jogador Arena para desafiar um jogador. /x1 dados Jogador para ver os dados do jogador. /x1 arenas para ver as arenas. /x1 camarote para ir até o camarote'
+
+# Mensagem enviada para o jogador que utiliza o comando "/x1 desafiar" de forma errada
+Uso incorreto: 'Uii... Comando usado de forma errada. Use /x1 desafiar Jogador Arena. /x1 arenas para a lista de arenas.'
+
+# Mensagem enviada para o jogador quando ele tenta desafiar alguém que está offline
+Jogador offline: '&cVisshh... @player está offline :('
+
+# Mensagem enviada para o jogador quando quem ele tentou desafiar não tem dinheiro suficiente
+Alvo sem dinheiro: '&cUeeepa... Parece que o @player não tem dinheiro suficiente'
+
+# Mensagem enviada para o jogador quando ele tenta desafiar alguém em uma arena que já está em uso
+Arena em uso: '&cDesculpe, mas esta arena já se encontra em uso. Use /x1 arenas para ver a lista de arenas e sua disponibilidade'
+
+# Mensagem enviada para o jogador quando ele tenta desafiar alguém quando ele próprio já tem uma solicitação pendente, está no camarote ou em jogo
+Impossibilitado de desafiar: '&cDesculpe, mas você não pode desafiar alguém estando no camarote, em jogo ou com uma solicitação pendente'
+
+# Mensagem enviada para o jogador quando ele tenta desafiar outro que está em jogo, no camarote ou já tem uma solicitação pendente
+Convidar ocupado: '&cDesculpe, mas o jogador que você tentou desafiar não está disponível para receber convites'
+
+# Mensagem enviada para o jogador quando ele tenta desafiar outro em uma arena inexistente
+Null arena: '&cDesculpe, mas a arena que você tentou usar não existe. Use /x1 arenas para ver a lista de arenas'
+
+# Mensagem enviada para um que tenta desafiar a si mesmo
+Si mesmo: '&cVocê não pode se desafiar'
+
+# Mensagem enviada para todo servidor quando um jogador desafia outro
+Desafiou: '&2@desafiado foi desafiado por @desafiador'
+
+# Mensagem enviada quando o desafiado aceita o convite de x1
+Aceitou: '&2@desafiado aceitou o x1'
+
+# Tempo maximo do x1, em m/s² (na verdade é em segundos mesmo)
+Tempo: 10
+# Mensagem enviada quando o tempo do x1 acaba
+Tempo acabou: '&aO tempo acabou, x1 cancelado.'
+
+# Mensagem enviada quando o jogador tenta aceitar um x1 sem um convite pendente
+Sem solicitacao: '&cVocê não tem nenhua solicitacao pendente bbzinho'
+
+# Mensagem enviada quando o jogador desafiado não aceita o convite
+Arregou: '&e@desafiado Arregou um x1 contra @desafiador '
+
+# Mensagem enviada quando um dos jogadores mata o outro, ou seja, quando alguém ganha.
+Venceu: '&2@vencedor venceu o x1 de @perdedor. '
+
+# Tempo que o jogador que venceu o x1 tem para ficar na arena após vencer, em segundos.
+Tempo de coleta: 10
+
+# Dinheiro necessário para começar o x1. Esse dinheiro é perdido pelo perdedor e ganho pelo vencedor.
+# Utilize apenas números com ponto, ou seja, não utilize números inteiros.
+Dinheiro: 300.00
+
+# Tempo que uma solicitação de x1 pode ficar pendente. Lembre-se, durante este tempo nenhum outro jogador poderá criar uma solicitação
+Tempo pend: 15
